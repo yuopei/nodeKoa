@@ -1,0 +1,22 @@
+{
+  "name": "nodekoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuopei/nodeKoa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuopei/nodeKoa/issues"
+  },
+  "homepage": "https://github.com/yuopei/nodeKoa#readme",
+  "dependencies": {
+    "koa": "^2.6.1"
+  }
+}
