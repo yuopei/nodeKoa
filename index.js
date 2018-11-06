@@ -2,8 +2,11 @@ const Koa = require('koa')
 const app = new Koa()
 
 app.use( async (ctx, next) => {
+  let startTime = new Date.getTime();
+  await next();
+  let endTime = new Date.getTime();
   ctx.response.body = '你好，我是内地吴彦祖'
-})
+});
 
 app.listen(3389, ()=>{
   console.log('server is running at http://localhost:3389')
